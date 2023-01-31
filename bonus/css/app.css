@@ -1,0 +1,52 @@
+:root {
+    --title-color: #124622;
+    --ticket-bg: #E7FFCD;
+    --card-bg: #00E278;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ticket-bg {
+    background-color: var(--ticket-bg);
+    margin-top: 3rem;
+    border-radius: 50px;
+}
+
+.your_data {
+    padding: 2rem 1rem;
+    row-gap: 0.5rem;
+}
+
+.travel_data {
+    padding: 0 1rem 2rem;
+}
+
+.price_for_km {
+    margin-left: auto;
+}
+
+.your-amounts {
+    gap: 0.5rem;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-radius: 50px;
+}
+
+.card-title {
+    color: var(--title-color);
+    margin-bottom: 0;
+}
+
+.card-body {
+    color: white;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
